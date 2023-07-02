@@ -1,0 +1,507 @@
+
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     /* font-family: 'Poppins', sans-serif; */
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+.navigation.navbar {
+     float: right;
+     padding-top: 12px;
+}
+.mezo{
+     background-color: #111111;
+     padding: 0;
+}
+.navigation.navbar-dark .navbar-nav .nav-link {
+     padding: 0 25px;
+     color: #d8516e;
+     font-size: 20px;
+     line-height: 20px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link:focus,
+.navigation.navbar-dark .navbar-nav .nav-link:hover {
+     color: #000000;
+     font-weight: 650!important;
+}
+
+
+
+
+.header {
+     background: #efcfcf;
+     padding: 15px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+     font-size: 24px;
+     font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+     font-size: 22px;
+     font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+     font-size: 18px;
+     font-family: 'Dancing Script', cursive;
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+img {
+     max-width: 100%;
+     height: auto;
+}
+.full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+
+
+/*---------------------------- preloader area ----------------------------*/
+
+.loader_bg {
+     position: fixed;
+     z-index: 9999999;
+     background: #fff;
+     width: 100%;
+     height: 100%;
+}
+
+.loader {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.loader img {
+     width: 280px;
+}
+
+
+
+.head_top {
+     background: url(../images/banner.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-top: 60px;
+     background-position: center;
+     border-radius: 0px 0px 170px 170px;
+     background-size: cover;
+}
+
+.header {
+     width: 100%;
+     background: #fff;
+     border-radius: 50px;
+     padding: 15px 30px;
+}
+
+.logo a {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     line-height: 40px;
+}
+
+.banner_main {
+     padding: 90px 0;
+}
+
+.text-bg {
+     text-align: center;
+}
+
+.text-bg h1 {
+     color: #fff;
+     font-size: 75px;
+     line-height: 90px;
+     padding-bottom: 70px;
+     font-weight: bold;
+}
+
+.text-bg span {
+     font-family: 'Dancing Script', cursive;
+     color: #fff;
+     font-size: 60px;
+     line-height: 77px;
+     font-weight: bold;
+     padding-bottom: 20px;
+     display: block;
+}
+
+.text-bg p {
+     color: #fff;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 0;
+}
+
+.text-bg a {
+     font-size: 17px;
+     background-color: #fff;
+     color: #dc5373;
+     padding: 13px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+     background-color: #000;
+     color: #fff;
+     transition: ease-in all 0.5s;
+     border-radius: 26px;
+}
+.titlepage {
+     text-align: center;
+     margin-top: -50px;
+}
+
+.titlepage h2 {
+     font-size: 60px;
+     color: #3e3e3e;
+     line-height: 77px;
+     font-weight: bold;
+     padding: 0;
+}
+.Fam span{
+     color: #5e51d8;
+     padding: 0 8px;
+}
+.Fam{
+     color: #d8516e!important;
+}
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+
+/** weare section **/
+
+.weare {
+     background: #fff;
+     padding-top: 90px;
+}
+
+.weare .titlepage h2 {
+     margin-bottom: 20px;
+}
+
+.weare .titlepage h2::after {
+     border-bottom: #f55171 solid 1px;
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     max-width: 259px;
+     margin: 0 auto;
+     margin-top: -50px;
+}
+
+.weare .weare_box {
+     text-align: center;
+}
+
+.weare .weare_box figure {
+     margin: 0;
+     padding: 20px;
+}
+
+.weare .weare_box figure img {
+     border-radius: 50%;
+     background: #f55171;
+     padding: 15px;
+}
+figure img {
+     width: 50% !important;
+}
+.weare .weare_box p {
+     color: #000;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 35px 0px;
+}
+/*===============================testimonial ==========================*/
+
+.ta7 {
+     margin-top: 90px;
+     padding-bottom: 90px;
+     background: #f55171;
+     padding-top: 60px;
+}
+
+.ta7 .titlepage h2 {
+     margin-bottom: 5px;
+     color: #fff;
+}
+
+.ta7 .titlepage p {
+     font-size: 17px;
+     color: #fff;
+}
+
+.testimonial_Carousel .carousel-caption {
+     position: inherit;
+}
+.testimonial_Carousel .test_box .moo {
+     text-align: left;
+     margin-bottom: 4px;
+     margin-left: -10px;
+}
+
+.testimonial_Carousel .test_box .moo i {
+     float: left;
+     background: #fff;
+     border-radius: 50px;
+     padding: 9px;
+}
+
+.testimonial_Carousel .test_box .moo h4 {
+     font-size: 25px;
+     color: #fff;
+     padding-top: 27px;
+     line-height: 32px;
+     padding-left: 20px;
+     display: inline-block;
+}
+
+.testimonial_Carousel .test_box p {
+     font-size: 30px;
+     line-height: 28px;
+     font-weight: 700;
+     color: #0a0352;
+     background: #a89023;
+     padding: 40px;
+     border-radius: 90px;
+}
+.footer {
+     font-family: Poppins;
+     background: #111111;
+}
+.copyright {
+     color: #aaa; 
+     padding: 20px 0px;   
+     text-align: center;
+     padding-top: 15px;
+}
+
+.copyright a {
+     color: #fff;
+     /* padding-left: 5px; */
+     font-size: 16px;
+     font-weight: 1000!important;
+     letter-spacing: 2px;
+}
+
+ a:hover {
+     color: #daa520;
+}
+
+ .moody {
+     color: #111111;
+     text-decoration: none !important;
+   }
+.FN span{
+     font-size: 28px!important;
+     color: #dee0ec;
+     display: inline;
+     padding-left: 20px;
+}
+.FN{
+     font-size: 30px;
+     line-height: 30px;
+     color: #ffffff;
+     font-family:  'Times New Roman';
+     font-weight: 1000;
+}
+.moo i img {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+}
+.ourName h2{
+     height: fit-content;
+     text-align: center;
+font-size: 24px!important;
+font-weight: 1000;
+color: #0c082b;
+
+}
+.ourName{
+ padding: 0;
+}
+.weare .abo{
+     font-weight: 800;
+     color: #f73918;
+
+}
+
+.multi {
+     color: #f55171;
+     font-weight: bold;
+     font-size: 60px;
+}
+
+.footer {
+     font-family: Poppins;
+     background: #2b2b2b;
+}
+
+.cont {
+     text-align: center;
+     margin-top: 80px;
+}
+
+.cont h3 {
+     color: #fff;
+     font-size: 70px;
+     line-height: 90px;
+     font-weight: bold;
+     padding-bottom: 30px;
+}
+
+.cont span {
+     color: #fff;
+     font-size: 30px;
+     line-height: 30px;
+     padding: 30px 0px 30px 0px;
+     display: inline-block;
+     font-weight: bold;
+}
+
+.cont p {
+     color: #fff;
+     font-size: 17px;
+     line-height: 30px;
+     padding: 0 130px;
+     padding-bottom: 60px;
+}
+
+
+.mezo{
+     background-color: transparent;
+}
+.mezo img{
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+}
+/*============index2=============*/
+main{
+     text-align: center;
+ }
+ main h2{
+     color: #dc5373;
+     font-size: 24px;
+     font-weight: 1000;
+ }
+ main ul li{
+     color: #0c082b;
+     font-size: 20px;
+     display: inline;
+     margin: 10px;
+     font-weight: 600;
+     list-style-type: none;
+     
+ }
+ .address ul li{
+     display: block!important;    
+ }
+ .moWatsapp{
+     color: chartreuse;
+ }
+ main a i{
+     margin-left: 50px;
+ }
+ a{
+     font-size: 32px;
+     text-decoration: none;     
+ }
+
+@media only screen and (max-width:577px) {
+     .row{
+          margin-right: 0;
+          margin-top: 15px;
+     }
+     .head_top{
+          border-radius:0;
+     } 
+     .header{
+          padding: 15px 30px;
+     }
+     .navigation.navbar {
+          padding-top: 30px;
+      }
+     }
+     @media only screen and (max-width:485px) {
+          .FN span {padding: 0;}
+          .titlepage h2{
+     font-size: 40px;
+          }
+          .navigation.navbar {
+               padding-top: 40px;
+          }
+     }
